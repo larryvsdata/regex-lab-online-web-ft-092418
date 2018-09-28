@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-result=word.match(/W+\w*/)
+result=word.match(/A/W+\w*/ /z)
 result == nil ?  false : true
 end
 
