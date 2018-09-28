@@ -15,7 +15,7 @@ result
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-result=word.match(/^ /)
+result=word.match(/^\W\w+ /)
 result == nil ?  false : true
 end
 
