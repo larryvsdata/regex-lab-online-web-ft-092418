@@ -10,7 +10,7 @@ result
 end
 
 def words_five_letters_long(text)
-result=text.scan(/\w{5}/)
+result=text.scan(/\b\w{5}\b/)
 result
 end
 
