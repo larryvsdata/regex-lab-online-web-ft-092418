@@ -20,5 +20,7 @@ result == nil ?  false : true
 end
 
 def valid_phone_number?(phone)
-
+result=phone.match(/^d{}3.?/)
+result == nil ?  false : true
+end
 end
