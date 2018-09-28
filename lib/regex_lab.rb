@@ -5,7 +5,7 @@ end
 starts_with_a_vowel?("Erman")
 
 def words_starting_with_un_and_ending_with_ing(text)
-result=text.scan(/un+\w*+ing/)
+result=text.scan(/^un\w*ing/)
 result
 end
 
